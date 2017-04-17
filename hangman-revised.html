@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--Marie Laborde-->
+<!--4/4/2017-->
+<!--HTML5-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HANGMAN</title>
+    <link href="hangman.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+  <section>
+    
+    <br>
+    <h2 id="music"></h2>
+    <div id="bandDiv"><img src="http://www.photoshoplayerstyle.com/wp-content/uploads/2014/09/80styleMockups_neon.jpg" width="500" height="100" alt="hangman board game from 80s"></div>
+    <h2>Guess any letter of the alphabet for Hangman game</h2>
+    <div id = 'game-section'>
+        <div id = 'current-word-section'>
+            <h3 class="section-title">Wins</h3>
+            <div id = 'wins'></div>
+        </div>
+            <div id = 'current-word-section'>
+                <h3 class="section-title">Current Word</h3>
+                <div id="current-word"></div>
+            </div>
+            <div id = 'guesses-taken-section'>
+                <h3 class="section-title">Guesses Taken</h3>
+                <div id="guesses-taken"></div>
+            </div>
+            <div id = 'guesses-remaining-section'>
+                <h3 class="section-title">Guesses Remaining</h3>
+                <div id="guesses-remaining"></div>
+            </div>
+            <div id = 'guessed-letters-section'>
+                <h3 class="section-title">Guessed Letters</h3>
+                <div id="guessed-letters"></div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <body>
+    <!-- Linking to our JavaScript file. -->
+    <script type="text/javascript" src="hangman-revised.js"></script>
+  </body>
+ </html>
